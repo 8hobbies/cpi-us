@@ -44,11 +44,11 @@
   "devDependencies": {
     "@8hobbies/eslint-conf-baseline": "^2.1.1",
     "@types/node": "^20.14.9",
-    "globals": "^15.6.0",
+    "globals": "^15.8.0",
     "prettier": "^3.3.2",
     "rimraf": "^5.0.7",
-    "tsx": "^4.15.9",
-    "typescript": "^5.5.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
     "vitest": "^1.6.0"
   }
 }
