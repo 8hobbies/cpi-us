@@ -45,10 +45,10 @@
     "@8hobbies/eslint-conf-baseline": "^2.1.1",
     "@types/node": "^20.14.10",
     "globals": "^15.8.0",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "rimraf": "^6.0.1",
     "tsx": "^4.16.2",
     "typescript": "^5.5.3",
-    "vitest": "^2.0.2"
+    "vitest": "^2.0.3"
   }
 }
