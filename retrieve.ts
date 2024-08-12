@@ -112,7 +112,7 @@ for (let year = earliestYearMissing; year <= curYear; ++year) {
       entry === null ||
       !("period" in entry) ||
       typeof entry.period !== "string" ||
-      !entry.period.match(/M\d\d/) ||
+      !/M\d\d/.exec(entry.period) ||
       !("value" in entry) ||
       typeof entry.value !== "string"
     ) {
