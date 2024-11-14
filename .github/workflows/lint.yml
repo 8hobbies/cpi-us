@@ -24,26 +24,4 @@ on:
 
 jobs:
   lint:
-    name: Lint
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [22.x]
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-
-      - name: Install Dependencies
-        run: |
-          npm install
-
-      - name: Lint
-        run: |
-          npm run lint
+    uses: 8hobbies/workflows/.github/workflows/lint.yml@d19b242e1bf42400c33930dad013d753749b6072
