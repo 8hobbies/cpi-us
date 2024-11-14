@@ -24,12 +24,4 @@ on:
 
 jobs:
   run:
-    name: Publish Dry Run
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22.x"
-      - run: npm ci
-      - run: npm publish --dry-run
+    uses: 8hobbies/workflows/.github/workflows/npm-publish-dry-run.yml@da9874d07c31e1bf9a89707955ad4f543d5f4af6
