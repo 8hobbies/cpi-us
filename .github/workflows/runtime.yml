@@ -24,37 +24,4 @@ on:
 
 jobs:
   test:
-    name: Runtime
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-        os: [ubuntu-latest, macos-latest, windows-latest]
-        exclude:
-          # Only test Node 22 on Windows and MacOS
-          - os: macos-latest
-            node-version: 18.x
-          - os: macos-latest
-            node-version: 20.x
-          - os: windows-latest
-            node-version: 18.x
-          - os: windows-latest
-            node-version: 20.x
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-
-      - name: Install Dependencies
-        run: |
-          npm install
-
-      - name: Test
-        run: |
-          npm test
+    uses: 8hobbies/workflows/.github/workflows/npm-runtime.yml@4d06784788e51fa7cf79a34e4ec23283067db5a8
