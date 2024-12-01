@@ -17,7 +17,7 @@
  * Visit https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt for the full text of the license.
  */
 
-import data from "./data.json";
+import data from "./data.json" with { type: "json" };
 import { writeFileSync } from "fs";
 
 const firstYear = 1913; // the first year that data is available
