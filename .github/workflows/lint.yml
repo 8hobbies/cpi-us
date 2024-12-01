@@ -24,4 +24,4 @@ on:
 
 jobs:
   lint:
-    uses: 8hobbies/workflows/.github/workflows/npm-lint.yml@cd77cf32b79d49ddde43c1b20729cc9f6974a056
+    uses: 8hobbies/workflows/.github/workflows/npm-lint.yml@ea78d49a97361dedb402cc92e36020714c121b5a
