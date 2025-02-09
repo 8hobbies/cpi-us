@@ -26,7 +26,7 @@ jobs:
   build:
     name: Build Website
     runs-on: ubuntu-24.04
-    container: hugomods/hugo:reg-git-0.142.0
+    container: hugomods/hugo:reg-git-0.143.0
     steps:
       - uses: actions/checkout@v4.2.2
         with:
