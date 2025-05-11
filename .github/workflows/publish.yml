@@ -21,6 +21,6 @@ on:
     tags: ["v*"]
 jobs:
   build:
-    uses: 8hobbies/workflows/.github/workflows/npm-publish.yml@b569198ec9f37a053f8ca8ca4f73cd0659fe2a43
+    uses: 8hobbies/workflows/.github/workflows/npm-publish.yml@54ddf1fd51ecf0cbeacf0a05b4994d2a082b70b1
     secrets:
       npm-auth-token: ${{ secrets.NPM_TOKEN }}
