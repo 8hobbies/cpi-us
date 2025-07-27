@@ -24,4 +24,4 @@ on:
 
 jobs:
   run:
-    uses: 8hobbies/workflows/.github/workflows/npm-publish-dry-run.yml@6b8bd6fb414b805b10d0e5c92b3dafd40f3b0756
+    uses: 8hobbies/workflows/.github/workflows/npm-publish-dry-run.yml@6138124629e6cf4c1d7a18e97c4c02f7265d1c1a
