@@ -1,6 +1,6 @@
 /** @license 0BSD OR CC0-1.0
  *
- * Copyright(C) 2024 8 Hobbies, LLC < hong@8hobbies.com >
+ * Copyright(C) 2024-2025 8 Hobbies, LLC <hong@8hobbies.com>
  *
  * Permission to use, copy, modify, and / or distribute this software for anypurpose with or without fee
  * is hereby granted.
