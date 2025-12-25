@@ -81,11 +81,14 @@ Returns the range of date of the data. Example return value:
 ```js
 [
   { year: 1913, month: 1 },
-  { year: 2024, month: 4 },
+  { year: 2025, month: 11 },
 ];
 ```
 
-meaning the data ranges from January 1913 to April 2024.
+meaning the data ranges from January 1913 to November 2025.
+
+(Due to the missing data from October 2025, here it is calculated by averaging the data from
+September 2025 and November 2025.)
 
 ## Contributing
 
@@ -103,7 +106,7 @@ To send your contribution, open a [pull request][].
 This package is licensed under [0BSD][] or [CC0-1.0][]. You may choose to comply with either when
 using this package or dataset.
 
-    Copyright (C) 2024 8 Hobbies, LLC <hong@8hobbies.com>
+    Copyright (C) 2024-2025 8 Hobbies, LLC <hong@8hobbies.com>
 
     Permission to use, copy, modify, and/or distribute this software for anypurpose with or without fee
     is hereby granted.
