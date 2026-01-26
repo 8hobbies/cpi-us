@@ -43,9 +43,9 @@
   "homepage": "https://cpi-us.8credits.com",
   "devDependencies": {
     "@8hobbies/eslint-conf-baseline": "6.0.0",
-    "@types/node": "24.10.8",
+    "@types/node": "24.10.9",
     "globals": "17.0.0",
-    "prettier": "3.7.4",
+    "prettier": "3.8.0",
     "rimraf": "6.1.2",
     "tsx": "4.21.0",
     "typescript": "5.9.3",
