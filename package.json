@@ -44,7 +44,7 @@
   "devDependencies": {
     "@8hobbies/eslint-conf-baseline": "7.0.0",
     "@types/node": "24.10.9",
-    "globals": "17.1.0",
+    "globals": "17.3.0",
     "prettier": "3.8.1",
     "rimraf": "6.1.2",
     "tsx": "4.21.0",
