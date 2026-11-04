@@ -43,7 +43,7 @@
   "homepage": "https://cpi-us.8credits.com",
   "devDependencies": {
     "@8hobbies/eslint-conf-baseline": "7.0.0",
-    "@types/node": "24.13.3",
+    "@types/node": "26.6.6",
     "globals": "17.8.0",
     "prettier": "3.9.6",
     "rimraf": "6.1.3",
